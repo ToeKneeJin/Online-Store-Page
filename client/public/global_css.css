@@ -1,0 +1,9 @@
+body{
+    background-image: url("./the_night_sky_starry.jpg");
+    background-color: black;
+    height: 95vh;
+    width: 100vw;
+    color: white;
+    margin: 0;
+};
+
