@@ -21,27 +21,21 @@ Finally, start the Vue application with the following command:
 npm run serve
 ```
 
-------The Read Me file below are edited from the Tech Elevator Project description------
-
+####The Read Me file below are edited from the Tech Elevator Project description
 
 #### Registration and login
 
 * As an anonymous user, I can register a new account.
-  * This feature already exists—**you just need to style the registration page**.
 * As an anonymous user, I can login using an existing username and password.
-  * This feature already exists—**you just need to style the login page**.
 * As an authenticated user, I can click "Logout" to logout of the application.
   * After logout, the system redirects me to the Login page.
-  * This feature already exists.
 
 #### Products page
 
 * As an anonymous or authenticated user, I can visit the Products page to see all the products in the SSGeek online store.
-  * See the wireframes section for details about the Products page.
   * Route `/` and route `/products` both access the Products page.
   * Clicking `Home` on the navigation bar also accesses the Products page.
 * As an anonymous or authenticated user, on the Products page, I can view the product list as a tiled view or a table view, by clicking the appropriate icon.
-  * See the wireframes for the two types of views.
 * As an anonymous or authenticated user, on the Products page, I can type a search term into a Search edit box, and the page displays only the products whose name contains the search term (ignoring case).
 * As an anonymous or authenticated user, from the Products page, I can click a product name to go to the Product Details page.
   * Route `/product/n` accesses the Product Details page for the product with id = n.
@@ -65,7 +59,6 @@ npm run serve
 #### Shopping Cart page
 
 * As an authenticated user, I can click the "Cart" link on the navigation bar to visit my shopping cart.
-  * See the wireframes section for details about the Shopping Cart page.
   * Route `/cart` accesses my Shopping Cart page.
   * The Shopping Cart page displays the quantity, name, price and extended price (qty * price) of each item in my cart.
   * The Shopping Cart page also displays the subtotal, tax, and total value of the all items in my cart.
