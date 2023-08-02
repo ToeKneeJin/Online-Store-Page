@@ -21,7 +21,7 @@ Finally, start the Vue application with the following command:
 npm run serve
 ```
 
-## The Read Me file below are edited from the Tech Elevator Project description
+## User Story (edited from the Tech Elevator Project description)
 
 #### Registration and login
 
